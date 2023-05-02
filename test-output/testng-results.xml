@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T14:52:01 EST" name="Suite" finished-at="2023-03-06T14:52:01 EST" duration-ms="76">
+    <groups>
+      <group name="high">
+        <method signature="TestNGSample.tc001()[pri:1, instance:sample.TestNGSample@1534f01b]" name="tc001" class="sample.TestNGSample"/>
+      </group> <!-- high -->
+      <group name="medium">
+        <method signature="TestNGSample.tc001()[pri:1, instance:sample.TestNGSample@1534f01b]" name="tc001" class="sample.TestNGSample"/>
+      </group> <!-- medium -->
+    </groups>
+    <test started-at="2023-03-06T14:52:01 EST" name="Test" finished-at="2023-03-06T14:52:01 EST" duration-ms="76">
+      <class name="sample.TestNGSample">
+        <test-method is-config="true" signature="tc004()[pri:0, instance:sample.TestNGSample@1534f01b]" started-at="2023-03-06T14:52:01 EST" name="tc004" finished-at="2023-03-06T14:52:01 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+        <test-method signature="tc001()[pri:1, instance:sample.TestNGSample@1534f01b]" started-at="2023-03-06T14:52:01 EST" name="tc001" finished-at="2023-03-06T14:52:01 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method is-config="true" signature="tc005()[pri:0, instance:sample.TestNGSample@1534f01b]" started-at="2023-03-06T14:52:01 EST" name="tc005" finished-at="2023-03-06T14:52:01 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+      </class> <!-- sample.TestNGSample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
